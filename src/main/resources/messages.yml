@@ -1,0 +1,41 @@
+
+# ____  ___             _________ .__            __ __________                __                 __  .__               ________
+#\   \/  /____   _____ \_   ___ \|  |__ _____ _/  |\______   \_______  _____/  |_  ____   _____/  |_|__| ____   ____  \_____  \
+# \     // __ \ /     \/    \  \/|  |  \\__  \\   __\     ___/\_  __ \/  _ \   __\/ __ \_/ ___\   __\  |/  _ \ /    \  /  ____/
+# /     \  ___/|  Y Y  \     \___|   Y  \/ __ \|  | |    |     |  | \(  <_> )  | \  ___/\  \___|  | |  (  <_> )   |  \/       \
+#/___/\  \___  >__|_|  /\______  /___|  (____  /__| |____|     |__|   \____/|__|  \___  >\___  >__| |__|\____/|___|  /\_______ \
+#      \_/   \/      \/        \/     \/     \/                                       \/     \/                    \/         \/
+
+# - Messages File
+
+blocked:
+  advertising:
+    - "&7Hey, &c<player>&7."
+    - "&7Your last message was blocked due to it containing a"
+    - "&7piece of advertising which is not allowed on the server."
+    - "&cTrying this again may result in a ban."
+  swearing:
+    - "&7Hey, &c<player>&7."
+    - "&7Your last message was blocked due to it containing a"
+    - "&7swear word."
+    - "&7This is not tolerated and please follow our rules."
+  unicode:
+    - "&7Hey, &c<player>&7."
+    - "&7Your last message was blocked as it contained unicode"
+    - "&7which can contain a bad word meaning that we needed"
+    - "&7to block it so we make sure that our chat stay clean."
+    - "&7Please type normally."
+
+help-message-default:
+  - "&d&lOh, don't worry about me! I'm just the Chat protection system here!"
+
+help-message-admin:
+  - "&d&lXemChatProtection &7by &dXemu"
+  - "  &7⋆ &d/xcp reload &8⋆ &7Reloads the plugin configuration"
+  - "  &7⋆ &d/xcp version &8⋆ &7Returns the current version of XCP"
+
+non-player: "&8[&dXCP&8] &7You need to be a player to do this!"
+reload: "&8[&dXCP&8] &7The &dconfiguration files &7were successfully &areloaded&7."
+version: "&8[&dXCP&8] &7Version: &f<version>"
+invalid-subcommand: "&8[&dXCP&8] &7This subcommand does not exist."
+

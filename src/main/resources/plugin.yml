@@ -1,0 +1,11 @@
+name: XemChatProtectionPlugin
+version: ${project.version}
+main: me.xemu.xemchatprotectionplugin.XemChatProtectionPlugin
+api-version: 1.16
+authors: [ Xemu ]
+description: The professional chat protection solution for your minecraft server
+
+commands:
+  xcp:
+    aliases: [xemchatprotection]
+    description: Main

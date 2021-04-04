@@ -1,0 +1,24 @@
+# ____  ___             _________ .__            __ __________                __                 __  .__               ________
+#\   \/  /____   _____ \_   ___ \|  |__ _____ _/  |\______   \_______  _____/  |_  ____   _____/  |_|__| ____   ____  \_____  \
+# \     // __ \ /     \/    \  \/|  |  \\__  \\   __\     ___/\_  __ \/  _ \   __\/ __ \_/ ___\   __\  |/  _ \ /    \  /  ____/
+# /     \  ___/|  Y Y  \     \___|   Y  \/ __ \|  | |    |     |  | \(  <_> )  | \  ___/\  \___|  | |  (  <_> )   |  \/       \
+#/___/\  \___  >__|_|  /\______  /___|  (____  /__| |____|     |__|   \____/|__|  \___  >\___  >__| |__|\____/|___|  /\_______ \
+#      \_/   \/      \/        \/     \/     \/                                       \/     \/                    \/         \/
+
+# - Configuration File
+
+# blocked-words | If people send a message containing these words, the message gets blocked. The checker is automaticly making all of these messages
+# lower-case so you don't need to make 10 different examples of 1 blocked word.
+blocked-words:
+  - "use"
+  - "your"
+  - "creativity"
+
+advertising-allowed:
+  - "google.com"
+
+advertising-disallowed:
+  - ".com"
+  - ".net"
+  - ".org"
+
